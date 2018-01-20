@@ -1,0 +1,1 @@
+Wersja zawierajaca tylko proste menu. Brak działania funkcjonalności i zapisu. 
