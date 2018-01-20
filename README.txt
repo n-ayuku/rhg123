@@ -1,1 +1,1 @@
-Wersja zawierajaca tylko proste menu. Brak działania funkcjonalności i zapisu. 
+Wersja zawierajaca menu i wiekszosc funkcjonalnosci bez zapisu.
