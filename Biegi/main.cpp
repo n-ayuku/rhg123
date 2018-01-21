@@ -140,7 +140,25 @@ int main()
 	}
 
 
-	
+	ofstream fAdministrator;
+	fAdministrator.open("administrator.txt");
+	fAdministrator << *administrator << "\n";
+	fAdministrator.close();
+
+	ofstream fBiegacze;
+	fBiegacze.open("biegacze.txt");
+	for (Biegacz* biegacz : biegacze) fBiegacze << *biegacz << "\n";
+	fBiegacze.close();
+
+	ofstream fBiegi;
+	fBiegi.open("biegi.txt");
+	for (Bieg* bieg : biegi) fBiegi << *bieg << "\n";
+	fBiegi.close();
+
+	ofstream fRezultaty;
+	fRezultaty.open("rezultaty.txt");
+	for (Rezultat* rezultat : rezultaty) fRezultaty << *rezultat << "\n";
+	fRezultaty.close();
 	
 	return 0;
 }

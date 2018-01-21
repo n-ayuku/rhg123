@@ -1,1 +1,1 @@
-Wersja zawierajaca menu i wiekszosc funkcjonalnosci bez zapisu.
+Wersja kompletna. Dodano mozliwosc zapisu danych.
